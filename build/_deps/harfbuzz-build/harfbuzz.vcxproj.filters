@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\gems_game\build\_deps\harfbuzz-src\src\harfbuzz.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-aat-layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-aat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-blob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-cplusplus.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-deprecated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-face.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-deprecated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-metrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot-var.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-ot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-paint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-script-list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-shape-plan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-style.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb-version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\gems_game\build\_deps\harfbuzz-src\src\hb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gems_game\build\_deps\harfbuzz-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4B9C00F7-494B-33AA-BA07-5AF32FA485A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EA04D0CE-85E2-3653-B60E-E49C41CC667F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

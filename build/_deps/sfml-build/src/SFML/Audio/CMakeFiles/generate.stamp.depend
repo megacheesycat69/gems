@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/PatchInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/RepositoryInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/UpdateInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/gitclone.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/gitupdate.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/stepscript.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/flac/download.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/flac/flac-gitclone.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/flac/flac-gitupdate.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/flac/patch.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/flac/update.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/ogg/download.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/ogg/ogg-gitclone.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/ogg/ogg-gitupdate.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/ogg/patch.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/ogg/update.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/vorbis/download.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/vorbis/patch.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/vorbis/update.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/vorbis/vorbis-gitclone.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/vorbis/vorbis-gitupdate.cmake
+C:/gems_game/build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt
+C:/gems_game/build/_deps/sfml-src/src/SFML/Audio/Dependencies.cmake.in
