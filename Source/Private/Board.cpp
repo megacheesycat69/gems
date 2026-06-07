@@ -4,23 +4,18 @@
 #include <set>
 
 // Construction
-Board::Board() : rng(std::random_device{}()) {
-    // Запускаем рандом
-    initBoard();
+Board::Board() : rng(std::random_device{}()) {    initBoard();
 }
 
 void Board::initBoard() {
-    // Заполняем поле клетка за клеткой. 
 
     for (int r = 0; r < BOARD_ROWS; ++r) {
         for (int c = 0; c < BOARD_COLS; ++c) {
             std::set<int> forbidden;
 
-            // Смотрим налево: если два предыдущих камня одного цвета, то этот цвет брать нельзя (запрещаем)
             if (c >= 2 && grid[r][c - 1] == grid[r][c - 2])
                 forbidden.insert(grid[r][c - 1]);
 
-            //аналогичная проверка по вертикали
             if (r >= 2 && grid[r - 1][c] == grid[r - 2][c])
                 forbidden.insert(grid[r - 1][c]);
 
@@ -38,7 +33,6 @@ void Board::initBoard() {
 
 
 bool Board::isAdjacent(int r1, int c1, int r2, int c2) const {
-    // Проверка на соседство
     return (r1 == r2 && std::abs(c1 - c2) == 1) ||
         (c1 == c2 && std::abs(r1 - r2) == 1);
 }
@@ -49,7 +43,6 @@ int Board::getColor(int r, int c) const {
 
 bool Board::hasMatches() const {
     auto m = findMatchedCells();
-    //пробегаемся по маске: если хоть где-то true, значит есть совпадения.
     for (int r = 0; r < BOARD_ROWS; ++r)
         for (int c = 0; c < BOARD_COLS; ++c)
             if (m[r][c]) return true;
@@ -60,15 +53,12 @@ std::vector<std::vector<bool>> Board::findMatchedCells() const {
     std::vector<std::vector<bool>> visited(BOARD_ROWS, std::vector<bool>(BOARD_COLS, false));
     std::vector<std::vector<bool>> matched(BOARD_ROWS, std::vector<bool>(BOARD_COLS, false));
 
-    // Вектора направлений
     const int dr[] = { 0, 0, 1, -1 };
     const int dc[] = { 1, -1, 0, 0 };
 
-    // Ищем кучи одинаковых камней
     for (int sr = 0; sr < BOARD_ROWS; ++sr) {
         for (int sc = 0; sc < BOARD_COLS; ++sc) {
-            if (visited[sr][sc] || grid[sr][sc] == -1) continue; // -1 это "дырка", её не трогаем
-
+            if (visited[sr][sc] || grid[sr][sc] == -1) continue; 
             const int colour = grid[sr][sc];
             std::vector<std::pair<int, int>> component;
             std::vector<std::pair<int, int>> queue = { {sr, sc} };
@@ -91,7 +81,6 @@ std::vector<std::vector<bool>> Board::findMatchedCells() const {
                 }
             }
 
-            // Если собрали 3 или больше камней в кучу - помечаем их на уничтожение
             if (component.size() >= 3) {
                 for (auto [r, c] : component)
                     matched[r][c] = true;
@@ -104,11 +93,9 @@ std::vector<std::vector<bool>> Board::findMatchedCells() const {
 bool Board::trySwap(int r1, int c1, int r2, int c2) {
     if (!isAdjacent(r1, c1, r2, c2)) return false;
 
-    // Махнули местами
     std::swap(grid[r1][c1], grid[r2][c2]);
 
     if (!hasMatches()) {
-        // Если ничего не собралось — возвращаем как было (игрок ошибся)
         std::swap(grid[r1][c1], grid[r2][c2]);
         return false;
     }
@@ -124,13 +111,11 @@ std::vector<BonusEvent> Board::processMatches() {
             if (matched[r][c])
                 toDestroy.emplace_back(r, c, grid[r][c]);
 
-    // Сносим камни
     for (auto& [r, c, col] : toDestroy) {
         grid[r][c] = -1;
         score += 10;
     }
 
-    // Спавн бонусов на месте уничтоженных камней
     std::vector<BonusEvent> bonuses;
     std::uniform_real_distribution<float> chance(0.0f, 1.0f);
     std::uniform_int_distribution<int>    typeDist(0, 1);
@@ -140,11 +125,9 @@ std::vector<BonusEvent> Board::processMatches() {
             auto candidates = getCellsInRadius(r, c, 3);
             if (candidates.empty()) continue; 
 
-            // Выбираем случайное место приземления бонуса в радиусе
             std::uniform_int_distribution<int> posDist(0, (int)candidates.size() - 1);
             auto [br, bc] = candidates[posDist(rng)];
 
-            // 50/50: либо перекраска, либо бомба
             BonusType t = (typeDist(rng) == 0) ? BonusType::Recolor : BonusType::Bomb;
             bonuses.push_back({ t, br, bc, col });
         }
@@ -154,13 +137,12 @@ std::vector<BonusEvent> Board::processMatches() {
 }
 
 void Board::applyGravity() {
-    // Гравитация. Алгоритм два указателя
     for (int c = 0; c < BOARD_COLS; ++c) {
-        int write = BOARD_ROWS - 1; // Куда будем писать падающий камень
+        int write = BOARD_ROWS - 1; 
         for (int r = BOARD_ROWS - 1; r >= 0; --r) {
             if (grid[r][c] != -1) {
                 grid[write][c] = grid[r][c];
-                if (write != r) grid[r][c] = -1; // Очищаем старое место, если камень реально упал
+                if (write != r) grid[r][c] = -1; 
                 --write;
             }
         }
@@ -229,7 +211,7 @@ std::vector<std::pair<int, int>> Board::getCellsInRadius(int r, int c, int radiu
     std::vector<std::pair<int, int>> result;
     for (int dr = -radius; dr <= radius; ++dr) {
         for (int dc = -radius; dc <= radius; ++dc) {
-            if (dr == 0 && dc == 0) continue; // Себя не добавляем
+            if (dr == 0 && dc == 0) continue; // Г‘ГҐГЎГї Г­ГҐ Г¤Г®ГЎГ ГўГ«ГїГҐГ¬
             int nr = r + dr, nc = c + dc;
             if (nr >= 0 && nr < BOARD_ROWS &&
                 nc >= 0 && nc < BOARD_COLS &&
