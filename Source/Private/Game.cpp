@@ -83,20 +83,18 @@ void Game::handleClick(int mx, int my) {
     const bool inBounds = (r >= 0 && r < BOARD_ROWS && c >= 0 && c < BOARD_COLS);
 
     if (!inBounds) {
-        // Кликнули мимо поля (например, в UI) – сбрасываем выделение
+        // Кликнули мимо поля- сбрасываем выделение
         state = GameState::Idle;
         selRow = selCol = -1;
         return;
     }
 
     if (state == GameState::Idle) {
-        // Ничего не выделено -> выделяем текущую клетку
+        // Ничего не выделено - выделяем текущую клетку
         selRow = r;  selCol = c;
         state = GameState::Selected;
         return;
     }
-
-    // Тут state == Selected (уже есть выделенный камень)
     if (r == selRow && c == selCol) {
         state = GameState::Idle;
         selRow = selCol = -1;
@@ -176,7 +174,7 @@ void Game::drawBackground() {
     bg.setOutlineThickness(2.f);
     window.draw(bg);
 
-    // Рисуем сетку (клетки)
+    // Рисуем сетку 
     for (int r = 0; r <= BOARD_ROWS; ++r) {
         sf::RectangleShape line({ float(BOARD_COLS * CELL_SIZE), 1.f });
         line.setPosition({ float(MARGIN), float(MARGIN + TOP_UI_HEIGHT + r * CELL_SIZE) });
@@ -224,7 +222,7 @@ void Game::drawCell(int r, int c, float /*dt*/) {
         gem.setOutlineColor(sf::Color::White); // Белая рамка для выделенного
     }
     window.draw(gem);
-    // Процедурная генерация бликов, лол.
+    // Процедурная генерация бликов.
 
     // Верхний блик
     const float shineW = SIZE * 0.55f;
@@ -322,7 +320,6 @@ sf::Color Game::cellColor(int idx) const {
 }
 
 std::pair<int, int> Game::screenToGrid(int x, int y) const {
-    // Переводим пиксели в координаты массива (отсекая марджины и шапку)
     const int c = (x - MARGIN) / CELL_SIZE;
     const int r = (y - MARGIN - TOP_UI_HEIGHT) / CELL_SIZE;
     return { r, c };
