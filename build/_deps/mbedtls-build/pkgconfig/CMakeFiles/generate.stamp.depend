@@ -1,6 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/gems_game/build/_deps/mbedtls-src/pkgconfig/CMakeLists.txt
-C:/gems_game/build/_deps/mbedtls-src/pkgconfig/JoinPaths.cmake
-C:/gems_game/build/_deps/mbedtls-src/pkgconfig/mbedcrypto.pc.in
-C:/gems_game/build/_deps/mbedtls-src/pkgconfig/mbedtls.pc.in
-C:/gems_game/build/_deps/mbedtls-src/pkgconfig/mbedx509.pc.in

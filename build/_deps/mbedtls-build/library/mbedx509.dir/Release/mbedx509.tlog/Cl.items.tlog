@@ -1,9 +1,0 @@
-C:\gems_game\build\_deps\mbedtls-src\library\pkcs7.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\pkcs7.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509_create.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509_create.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509_crl.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509_crl.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509_crt.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509_crt.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509_csr.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509_csr.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509write.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509write.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509write_crt.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509write_crt.obj
-C:\gems_game\build\_deps\mbedtls-src\library\x509write_csr.c;C:\gems_game\build\_deps\mbedtls-build\library\mbedx509.dir\Release\x509write_csr.obj
