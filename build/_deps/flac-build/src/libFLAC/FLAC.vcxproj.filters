@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-build\src\libFLAC\CMakeFiles\FLAC.dir\Unity\unity_0_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\bitmath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\bitreader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\bitwriter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\cpu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\fixed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\fixed_intrin_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\fixed_intrin_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\fixed_intrin_sse42.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\fixed_intrin_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\format.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\lpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\lpc_intrin_neon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\lpc_intrin_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\lpc_intrin_sse41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\lpc_intrin_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\lpc_intrin_fma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\metadata_iterators.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\metadata_object.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\stream_decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\stream_encoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\stream_encoder_framing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\share\win_utf8_io\win_utf8_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\ogg_decoder_aspect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\ogg_encoder_aspect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\ogg_helper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\ogg_mapping.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\gems_game\build\_deps\flac-src\include\share\win_utf8_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\gems_game\build\_deps\flac-src\src\libFLAC\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4B9C00F7-494B-33AA-BA07-5AF32FA485A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EA04D0CE-85E2-3653-B60E-E49C41CC667F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

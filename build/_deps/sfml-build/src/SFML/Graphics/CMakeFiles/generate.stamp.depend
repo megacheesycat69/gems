@@ -1,0 +1,33 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/PatchInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/RepositoryInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/UpdateInfo.txt.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/gitclone.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/gitupdate.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/stepscript.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent/package-config-version.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent/package-config.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/freetype/download.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/freetype/freetype-gitclone.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/freetype/freetype-gitupdate.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/freetype/patch.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/freetype/update.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/harfbuzz/download.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/harfbuzz/harfbuzz-gitclone.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/harfbuzz/harfbuzz-gitupdate.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/harfbuzz/patch.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/harfbuzz/update.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/sheenbidi/download.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/sheenbidi/patch.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/sheenbidi/sheenbidi-gitclone.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/sheenbidi/sheenbidi-gitupdate.cmake
+C:/gems_game/build/CMakeFiles/fc-tmp/sheenbidi/update.cmake
+C:/gems_game/build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt
+C:/gems_game/build/_deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in
