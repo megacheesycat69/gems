@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/gems_game/build/_deps/libssh2-build/src/Makefile.inc.cmake
+C:/gems_game/build/_deps/libssh2-src/cmake/libssh2-config.in.cmake
+C:/gems_game/build/_deps/libssh2-src/libssh2.pc.in
+C:/gems_game/build/_deps/libssh2-src/src/CMakeLists.txt
+C:/gems_game/build/_deps/libssh2-src/src/Makefile.inc

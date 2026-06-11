@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\String.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\TimeoutWithPredicate.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Utils.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Version.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
+    <ClCompile Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Angle.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Angle.inl" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\EnumArray.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Exception.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\String.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\String.inl" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Time.inl" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\TimeoutWithPredicate.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Utils.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\Version.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\include\SFML\System\SuspendAwareClock.hpp" />
+    <ClInclude Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\gems_game\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{4162D16C-F039-33F4-8B28-77478B13E2E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
